@@ -11,16 +11,16 @@
 | Eddie             | Forson              | eddie.forson@gmail.com    |
 
 [//]: # (Image References)
-[saimg]: ./README_Folder/final-project-ros-graph-v2.png "System_Architecture"
-[tdnimg]: ./README_Folder/tl-detector-ros-graph.png "Traffic Detection Node"
-[ssdimg]: ./README_Folder/ssd_architecture.png "SSD Mobilenet"
-[simtl_img1]: ./README_Folder/simtl_img1.png "Simulator TL Image1"
-[simtl_img2]: ./README_Folder/simtl_img2.png "Simulator TL Image2"
-[rwtl_img1]: ./README_Folder/rwtl_img1.png "Real World TL Image1"
-[rwtl_img2]: ./README_Folder/rwtl_img2.png "Real World TL Image2"
-[rwtl_img3]: ./README_Folder/rwtl_img3.png "Real World TL Image3"
-[wpimg]: ./README_Folder/waypoint-updater-ros-graph.png "Waypoint Update Node"
-[csimg]: ./README_Folder/dbw-node-ros-graph.png "DBW Node"
+[saimg]: ./readme_imgs/final-project-ros-graph-v2.png "System_Architecture"
+[tdnimg]: ./readme_imgs/tl-detector-ros-graph.png "Traffic Detection Node"
+[ssdimg]: ./readme_imgs/ssd_architecture.png "SSD Mobilenet"
+[simtl_img1]: ./readme_imgs/simtl_img1.png "Simulator TL Image1"
+[simtl_img2]: ./readme_imgs/simtl_img2.png "Simulator TL Image2"
+[rwtl_img1]: ./readme_imgs/rwtl_img1.png "Real World TL Image1"
+[rwtl_img2]: ./readme_imgs/rwtl_img2.png "Real World TL Image2"
+[rwtl_img3]: ./readme_imgs/rwtl_img3.png "Real World TL Image3"
+[wpimg]: ./readme_imgs/waypoint-updater-ros-graph.png "Waypoint Update Node"
+[csimg]: ./readme_imgs/dbw-node-ros-graph.png "DBW Node"
 
 ## Overview
 System Integration project is the final project of the Udacity Self-Driving Car Engineer Nanodegree: Programming a Real Self-Driving Car (Carla). Our Team implemented the core functionality of the autonomous vehicle system, including traffic light detection, control, and waypoint following. This software system will be deployed on Carla (Udacity’s Self Driving Lincoln MKZ) to autonomously drive it around a test track.
