@@ -85,7 +85,7 @@ Waypoints are calculated continuously to make sure the car follows the track and
 The final list of waypoints is published on the /final_waypoints topic.
 
 ## Control Subsystem/Controller nodes
-The Control subsytem uses the Sriveby-Wire node and publishes the vehicle's throttle, steering and brakes commands based on the waypoint list provided by planning subsytem.
+The Control subsytem uses the Drive-By-Wire (DBW) node and publishes the vehicle's throttle, steering and brakes commands based on the waypoint list provided by planning subsytem.
 ![alt text][csimg]
 
 Waypoint Follower Node parses the list of waypoints to follow and publishes proposed linear and angular velocities to the /twist_cmd topic (provided by Udacity).Drive By Wire (DBW) Node is the interface between SW and HW of the Carla self driving vehicle’s system.  
